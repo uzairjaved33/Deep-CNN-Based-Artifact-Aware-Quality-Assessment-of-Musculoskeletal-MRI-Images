@@ -1,0 +1,36 @@
+﻿
+# Private/raw dataset and generated heavy caches
+ArtifactData_part1/
+GroundTruthData_part1/
+Testing _GroundTruthData/
+preprocessed_cache/
+val_cache/
+prediction_cache/
+xaI_venv/
+venv/
+
+# Raw medical/data files
+*.nii
+*.nii.gz
+*.ckpt
+*.onnx
+*.npz
+
+# Keep final .pt/.pkl model assets intentionally.
+# Do not globally ignore *.pt or *.pkl in this repo.
+samples_ssim_labeled.json
+TrainingCohort.csv
+TestingCohort.csv
+
+# Model/checkpoint binaries are hosted on Kaggle Model, not GitHub
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.safetensors
+checkpoints/**/*.pt
+checkpoints/**/*.pth
+checkpoints/**/*.pkl
