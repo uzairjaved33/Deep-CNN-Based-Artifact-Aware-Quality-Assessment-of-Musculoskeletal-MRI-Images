@@ -10,13 +10,6 @@ The project started with an EfficientNet pipeline and was then extended to addit
 
 ## Live Resources
 
-| Resource | Link |
-|---|---|
-| Public Kaggle demo notebook | <https://www.kaggle.com/code/zeeshankhalid5559/kmar-checkpoints-demo> |
-| Public Kaggle model package | <https://www.kaggle.com/models/zeeshankhalid5559/kmar50k-multi-model-artifact-quality-checkpoints> |
-| Public Kaggle demo sample dataset | <https://www.kaggle.com/datasets/zeeshankhalid5559/kmar50k-xai-demo-samples> |
-| GitHub repository | <https://github.com/ZeeshanKhalid2k01/uzair_researchProject> |
-
 ### Repository / Kaggle split
 
 Large model checkpoints are intentionally **not** stored directly in GitHub.
