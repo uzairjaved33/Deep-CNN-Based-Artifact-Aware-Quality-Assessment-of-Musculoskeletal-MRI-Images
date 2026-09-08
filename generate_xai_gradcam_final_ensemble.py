@@ -101,7 +101,7 @@ OUT_DIR = BASE / "xai_outputs"
 README_ASSETS_DIR = BASE / "readme_assets"
 
 IMG_SIZE = 224
-PER_CATEGORY = int(os.environ.get("KMAR_XAI_PER_CATEGORY", "5"))
+PER_CATEGORY = int(os.environ.get("KMAR_XAI_PER_CATEGORY", "8"))
 MAX_TOTAL = int(os.environ.get("KMAR_XAI_MAX_TOTAL", "80"))
 
 DEVICE_NAME = os.environ.get("KMAR_XAI_DEVICE", "cuda" if torch.cuda.is_available() else "cpu")
