@@ -51,8 +51,8 @@ Run:
     python generate_xai_gradcam_final_ensemble.py
 
 Optional environment variables:
-    set KMAR_XAI_PER_CATEGORY=5
-    set KMAR_XAI_MAX_TOTAL=60
+    set KMAR_XAI_PER_CATEGORY=60
+    set KMAR_XAI_MAX_TOTAL=600
     set KMAR_XAI_DEVICE=cuda
 """
 
